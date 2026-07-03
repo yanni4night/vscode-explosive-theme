@@ -1,0 +1,95 @@
+{
+  "name": "explosive-theme",
+  "displayName": "Explosive Theme",
+  "description": "Vibrant neon color themes for VS Code with green, blue, cyan, yellow, and mixed palettes",
+  "version": "0.0.1",
+  "publisher": "yanni4night",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "syntax highlighting",
+    "dark",
+    "green",
+    "yellow",
+    "blue",
+    "cyan",
+    "high contrast",
+    "neon"
+  ],
+  "galleryBanner": {
+    "color": "#39ff14",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "repository": "https://github.com/yanni4night/vscode-explosive-theme",
+  "bugs": {
+    "url": "https://github.com/yanni4night/vscode-explosive-theme/issues",
+    "email": "yanni4night@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepackage": "node scripts/check-integrity.js",
+    "package": "npx @vscode/vsce package",
+    "publish": "npx @vscode/vsce publish"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Explosive Green Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Explosive Green Dark-color-theme.json"
+      },
+      {
+        "label": "Explosive Blue Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Explosive Blue Dark-color-theme.json"
+      },
+      {
+        "label": "Explosive Cyan Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Explosive Cyan Dark-color-theme.json"
+      },
+      {
+        "label": "Explosive Yellow Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Explosive Yellow Dark-color-theme.json"
+      },
+      {
+        "label": "Explosive High Contrast Green",
+        "uiTheme": "hc-black",
+        "path": "./themes/Explosive High Contrast Green-color-theme.json"
+      },
+      {
+        "label": "Explosive High Contrast Red",
+        "uiTheme": "hc-black",
+        "path": "./themes/Explosive High Contrast Red-color-theme.json"
+      },
+      {
+        "label": "Explosive High Contrast Yellow",
+        "uiTheme": "hc-black",
+        "path": "./themes/Explosive High Contrast Yellow-color-theme.json"
+      },
+      {
+        "label": "Explosive High Contrast Cyan",
+        "uiTheme": "hc-black",
+        "path": "./themes/Explosive High Contrast Cyan-color-theme.json"
+      },
+      {
+        "label": "Explosive High Contrast Blue",
+        "uiTheme": "hc-black",
+        "path": "./themes/Explosive High Contrast Blue-color-theme.json"
+      },
+      {
+        "label": "Explosive Mixed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Explosive Mixed-color-theme.json"
+      }
+    ]
+  }
+}

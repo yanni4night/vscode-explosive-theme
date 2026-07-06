@@ -7,7 +7,8 @@
 ```
 explosive-theme/
 ├── package.json              # 扩展清单（必须与主题文件保持同步）
-├── README.md                 # Marketplace 页面文档
+├── README.md                 # Marketplace 页面文档（英文）
+├── README_CN.md              # 中文翻译版
 ├── CHANGELOG.md              # 版本历史
 ├── LICENSE                   # MIT 许可证
 ├── icon.png                  # Marketplace 图标 (512x512)
@@ -47,11 +48,19 @@ explosive-theme/
 - `keywords` — 如新主题引入了新色系（如 purple、orange），添加到关键词数组
 - `contributes.themes` 总数 — 确保与 `themes/` 目录下的文件数量一致
 
-### 2. `README.md` — 添加主题介绍
+### 2. `README.md` 和 `README_CN.md` — 添加主题介绍
+
+#### 英文 README
 
 - 在 `## Included Themes` 下找到对应分组（Dark Themes 或 High Contrast Themes）
 - 添加新主题条目，格式：`- **主题名** — 颜色风格简述，主色调色值`
-- 在 `## Screenshots` 部分添加截图占位（如果已有截图则取消注释）
+- 在 `## Screenshots` 部分添加截图引用
+
+#### 中文 README
+
+- 同步更新 `README_CN.md` 中对应的主题介绍和截图部分
+
+> **注意**：两个 README 顶部都有语言切换链接，确保两者都保留。
 
 ### 3. `CHANGELOG.md` — 记录变更
 

@@ -1,22 +1,24 @@
 # Explosive Theme
 
+> [English](README.md) | [简体中文](README_CN.md)
+
 A collection of 10 vibrant neon color themes for Visual Studio Code, featuring bold green, blue, cyan, yellow palettes with high-contrast variants and a mixed multi-color theme.
 
 ## Included Themes
 
 ### Dark Themes (vs-dark)
-- **Explosive Green Dark** — Green-dominant palette with neon `#39ff14` accents
-- **Explosive Blue Dark** — Cool blue palette with `#4488ff` highlights
-- **Explosive Cyan Dark** — Teal-cyan palette with vivid `#00e5ff` accents
-- **Explosive Yellow Dark** — Warm yellow palette with `#ffd700` golden highlights
-- **Explosive Mixed** — Multi-color palette blending blue, red, purple, green, and yellow tones
+- **Explosive Green Dark** — Green-dominant palette with vibrant neon accents
+- **Explosive Blue Dark** — Cool blue palette with vivid highlights
+- **Explosive Cyan Dark** — Teal-cyan palette with bright accents
+- **Explosive Yellow Dark** — Warm yellow palette with golden highlights
+- **Explosive Mixed** — Multi-color palette blending various tones
 
 ### High Contrast Themes (hc-black)
-- **Explosive High Contrast Green** — Dark green with high-visibility neon accents
-- **Explosive High Contrast Red** — Dark red with striking high-contrast highlights
+- **Explosive High Contrast Green** — Dark green with high-visibility accents
+- **Explosive High Contrast Red** — Dark red with striking highlights
 - **Explosive High Contrast Yellow** — Dark yellow with maximum readability
-- **Explosive High Contrast Blue** — Deep blue with bright `#4488ff` accents
-- **Explosive High Contrast Cyan** — Teal-cyan with vivid `#00e5ff` highlights
+- **Explosive High Contrast Blue** — Deep blue with bright accents
+- **Explosive High Contrast Cyan** — Teal-cyan with vivid highlights
 
 ## Installation
 
@@ -24,7 +26,14 @@ A collection of 10 vibrant neon color themes for Visual Studio Code, featuring b
 2. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
 3. Search for **Explosive Theme**
 4. Click **Install**
-5. Activate a theme via `File > Preferences > Theme > Color Theme`
+
+Or install directly from the command line:
+
+```bash
+code --install-extension yanni4night.explosive-theme
+```
+
+Activate a theme via `File > Preferences > Theme > Color Theme` or the command palette (`Ctrl+Shift+P` / `Cmd+Shift+P`).
 
 ## Screenshots
 

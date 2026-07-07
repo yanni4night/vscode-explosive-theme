@@ -2,7 +2,7 @@
   "name": "explosive-theme",
   "displayName": "Explosive Theme",
   "description": "Vibrant neon color themes for VS Code with green, blue, cyan, yellow, and mixed palettes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "yanni4night",
   "engines": {
     "vscode": "^1.125.0"

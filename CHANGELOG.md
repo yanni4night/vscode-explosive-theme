@@ -4,10 +4,10 @@ All notable changes to the "explosive-theme" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
 
-- Added Explosive Blue Dark — cool blue palette with `#4488ff` highlights
-- Added Explosive Cyan Dark — teal-cyan palette with `#00e5ff` accents
+## [0.0.2]
+
+- Dimmed diff editor backgrounds in High Contrast Green/Yellow/Red themes for better readability (lowered alpha from 60%/30% to 20%/10%)
 
 ## [0.0.1]
 
